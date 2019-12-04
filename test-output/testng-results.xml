@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Lambda Tunnel Setup" duration-ms="16616" started-at="2019-11-28T12:35:16Z" finished-at="2019-11-28T12:35:32Z">
+  <suite name="Lambda Tunnel Setup" duration-ms="17140" started-at="2019-12-04T17:14:05Z" finished-at="2019-12-04T17:14:23Z">
     <groups>
     </groups>
-    <test name="Sample Test One" duration-ms="16616" started-at="2019-11-28T12:35:16Z" finished-at="2019-11-28T12:35:32Z">
+    <test name="Sample Test Two" duration-ms="16917" started-at="2019-12-04T17:14:05Z" finished-at="2019-12-04T17:14:22Z">
       <class name="Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest@c540f5a]" name="setUp" is-config="true" duration-ms="9063" started-at="2019-11-28T18:05:16Z" finished-at="2019-11-28T18:05:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest@275710fc]" name="setUp" is-config="true" duration-ms="9024" started-at="2019-12-04T22:44:06Z" finished-at="2019-12-04T22:44:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testSimple()[pri:0, instance:Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest@c540f5a]" name="testSimple" duration-ms="5372" started-at="2019-11-28T18:05:25Z" finished-at="2019-11-28T18:05:30Z">
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest@275710fc]" name="testSimple" duration-ms="5725" started-at="2019-12-04T22:44:15Z" finished-at="2019-12-04T22:44:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSimple -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest@c540f5a]" name="tearDown" is-config="true" duration-ms="2149" started-at="2019-11-28T18:05:30Z" finished-at="2019-11-28T18:05:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest@275710fc]" name="tearDown" is-config="true" duration-ms="2133" started-at="2019-12-04T22:44:20Z" finished-at="2019-12-04T22:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest -->
+    </test> <!-- Sample Test Two -->
+    <test name="Sample Test One" duration-ms="17140" started-at="2019-12-04T17:14:05Z" finished-at="2019-12-04T17:14:23Z">
+      <class name="Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest@c540f5a]" name="setUp" is-config="true" duration-ms="9035" started-at="2019-12-04T22:44:06Z" finished-at="2019-12-04T22:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest@c540f5a]" name="testSimple" duration-ms="5903" started-at="2019-12-04T22:44:15Z" finished-at="2019-12-04T22:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest@c540f5a]" name="tearDown" is-config="true" duration-ms="2174" started-at="2019-12-04T22:44:20Z" finished-at="2019-12-04T22:44:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -12,6 +12,13 @@
 </classes>
 </test>
 
+<test name="Sample Test Two">
+<classes>
+<class name="Tunnel_setup.Java_Lambda_Tunnel_Setup.SampleTest" />
+</classes>
+</test>
+
+
 
 
 

@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 public class SampleTest{
     public String username = "ramitdlambdatest";
     public String accesskey = "Ar7sr82ACbQXRi23ujktWaSuBRq9jOjInvBaelieyC00XavZUP";
-    public static RemoteWebDriver driver = null;
+    public RemoteWebDriver driver;
     public String gridURL = "@hub.lambdatest.com/wd/hub";
     String status = "passed";
   
